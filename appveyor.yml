@@ -2,8 +2,8 @@ image: Visual Studio 2017
 configuration: Release
 
 install:
-    - mkdir asmjit & cd asmjit
     - git clone https://github.com/asmjit/asmjit.git
+    - cd asmjit
     - cmake . -A x64
     - msbuild asmjit.sln
     - cd ..
