@@ -2,7 +2,7 @@ image: Visual Studio 2017
 configuration: Release
 
 install:
-    - cmake .
+    - cmake . -A x64
 
 build:
   project: blend2d.sln
