@@ -3,11 +3,7 @@ configuration: Release
 
 install:
     - git clone --depth=1 https://github.com/asmjit/asmjit --branch=next-wip
-    - cd asmjit
-    - cmake . -A x64
-    - msbuild asmjit.sln
-    - set PATH=%PATH%;%CD%\x64\Release;%CD%\src
-    - cd ..
+    - set PATH=%PATH%;%CD%\asmjit\src
     - cmake . -A x64
 
 build:
