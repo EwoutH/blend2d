@@ -6,7 +6,7 @@ install:
     - cd asmjit
     - cmake . -A x64
     - msbuild asmjit.sln
-    - set PATH=%PATH%;%CD%\bin\Release
+    - set PATH=%PATH%;%CD%\x64\Release
     - cd ..
     - cmake . -A x64
 
