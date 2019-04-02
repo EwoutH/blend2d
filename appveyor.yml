@@ -2,10 +2,11 @@ image: Visual Studio 2017
 configuration: Release
 
 install:
-    - git clone https://github.com/asmjit/asmjit.git
+    - git clone --depth=1 https://github.com/asmjit/asmjit --branch=next-wip
     - cd asmjit
     - cmake . -A x64
     - msbuild asmjit.sln
+    - set PATH=%PATH%;%CD%\bin\Release
     - cd ..
     - cmake . -A x64
 
