@@ -1,4 +1,4 @@
-Blend2D
+Blend2D  [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/blend2d/blend2d?branch=master&svg=true)](https://ci.appveyor.com/project/blend2d/blend2d/history)
 -------
 
 2D Vector Graphics Powered by a JIT Compiler.
